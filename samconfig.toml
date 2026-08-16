@@ -5,7 +5,7 @@ version = 0.1
 [default.deploy.parameters]
 stack_name = "fiap-serverless-dev"
 resolve_s3 = true
-region = "us-east-1"
+region = "sa-east-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Environment=dev"
@@ -15,7 +15,7 @@ parameter_overrides = "Environment=dev"
 [staging.deploy.parameters]
 stack_name = "fiap-serverless-staging"
 resolve_s3 = true
-region = "us-east-1"
+region = "sa-east-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Environment=staging"
@@ -25,7 +25,7 @@ parameter_overrides = "Environment=staging"
 [production.deploy.parameters]
 stack_name = "fiap-serverless-prod"
 resolve_s3 = true
-region = "us-east-1"
+region = "sa-east-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Environment=prod"
